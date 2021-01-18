@@ -56,6 +56,8 @@ for p in products:
                     file_ext = '.png'
                 elif image_type == "image/jpeg":
                     file_ext = '.jpg'
+                elif image_type == "image/gif":
+                    file_ext = '.gif'
                 else:
                     print("Failed ext type:")
                     print(image_type)
